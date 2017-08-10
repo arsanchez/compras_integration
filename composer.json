@@ -39,12 +39,12 @@
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize",
-            "chmod -R 777 vendor" 
+            "chmod -R 777 public/vendor/" 
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize",
-            "chmod -R 777 public/vendor" 
+            "chmod -R 777 public/vendor/" 
         ]
     },
     "config": {
