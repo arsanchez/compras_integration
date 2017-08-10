@@ -44,7 +44,7 @@
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize",
-            "chmod -R 777 vendor" 
+            "chmod -R 777 public/vendor" 
         ]
     },
     "config": {
