@@ -279,8 +279,7 @@
 	    | 
 	    */
 	    public function hook_after_add($id) {        
-	        //Your code here
-
+			$compra = DB::table('compras')->where('id', $id)->first();
 	    }
 
 	    /* 
