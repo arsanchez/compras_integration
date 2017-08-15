@@ -1,4 +1,4 @@
 
 ## Compras
 
-Proyecto final - Integración de aplicaciones con tecnologa open source
+Proyecto final - Integración de aplicaciones con tecnologia open source
